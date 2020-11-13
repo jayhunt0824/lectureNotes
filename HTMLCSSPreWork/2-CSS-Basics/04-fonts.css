@@ -1,0 +1,14 @@
+. wrapper{
+    margin: 5px;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+}
+h2{
+    font-family:Arial, helvetica, sans-serif;
+}
+dt{
+    font-weight:bold;
+    font-size:20px;
+}

@@ -1,0 +1,23 @@
+.wrapper{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb (0,00,0);
+}
+
+.background1{
+    background-color: lightblue;
+}
+
+.background2{
+    background-image:url("../3-assets/upfeathers.png");
+}
+
+table, th, td{
+    border: 1px solid black;
+}

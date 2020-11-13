@@ -1,0 +1,190 @@
+html, body{
+    width: 100;
+    height: 100;
+    padding: 0;
+    margin: 0;
+    background: url('https://pbs.twimg.com/media/EHjpEW_X0AE0Izy.jpg') fixed center no-repeat;
+    
+  }
+  
+  .centered-wrapper{
+    position: relative;
+    text-align: center;
+    top: 150px;
+  }
+  
+  .centered-wrapper:before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 100px;
+    vertical-align: middle;
+  }
+  
+  .centered-content{
+    display: inline-block;
+    verticle-align: middle;
+  }
+  
+  .head{
+    width: 200px;
+        height: 100px;
+        background: #817F81;
+    position: relative;
+    top: 550px;
+    left: 90px;
+        border-radius: 120px / 70px;
+  }
+  .body{
+      width: 300px;
+      height: 350px;
+      border-radius: 80%;
+      background-color: #817F81;
+      position: relative;
+      z-index: 100;
+      top: 500px;
+      left: 50px;
+      
+    }
+    
+  
+  .belly{
+    width: 235px;
+    height: 250px;
+    border-radius: 150px 150px 150px 150px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    z-index: 100;
+    top: 50px;
+    left: 32px;
+    
+  }
+  
+  .bellyspot1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 #817F81;
+        position: relative;
+    z-index: 19;
+    top: -150px;
+    left: 25px;
+    transform: rotate(-175deg);
+    
+      }
+  
+  .bellyspot2{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 #817F81;
+        position: relative;
+    z-index: 19;
+    top: -220px;
+    left: 73px;
+    transform: rotate(225deg);
+    
+      }
+  
+  .bellyspot3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 #817F81;
+        position: absolute;
+    z-index: 19;
+    top: -260px;
+    left: 124px;
+    transform: rotate(-84deg);
+    
+      }
+  
+  
+  
+  .lefteye{
+      background-color: white;
+    border: solid 1px black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 100;
+    top: -81px;
+    left: -42px;
+    }
+   
+    .righteye{
+      background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+      border: 1px solid black;
+    position: relative;
+    z-index: 11;
+    top: -213px;
+    right: -130px;
+    }
+  
+  .innerleft{
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    z-index: 11;
+    top: -236px;
+    left: 48px;
+  }
+  
+  .innerright{
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    z-index: 11;
+    top: -252px;
+    left: 138px;
+  }
+  
+  
+  
+  .nose{
+    width: 30px;
+    height: 15px;
+    border-radius: 70%;
+    background-color: black;
+    position: relative;
+    z-index: 110;
+    top: -140px;
+    left: 86px;
+  }
+  
+  
+   .leftear {
+    width: 100px;
+    height: 100px;
+    background-color: #817F81;
+     border-radius: 0px 150px;
+     position: relative;
+     z-index: 13;
+     top: -100px;
+     left; 10px;
+     transform: rotate(40deg);
+  }
+  
+  .rightear {
+    width: 100px;
+    height: 100px;
+    background-color: #817F81;
+     border-radius: 0px 150px;
+     position: relative;
+     z-index: 8;
+     top: -199px;
+     right: -99px;
+     transform: rotate(50deg);
+  }
+  
+  
