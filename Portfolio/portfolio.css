@@ -1,0 +1,275 @@
+
+
+#navbar img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 90px;
+    
+}
+
+
+
+
+
+  #images{
+      width: auto;
+      height: 700px;
+  
+  }
+ 
+
+
+.left-bg img{
+  position: absolute;
+  left: 0px;
+  height: 300px;
+  width: 50%;
+}
+
+#images img{
+  position: absolute;
+  height: 700px;
+  right: 0px;
+  width: 50%;
+}
+
+
+
+.headshot img{
+        border-radius: 50%;
+        position: relative;
+        left: 90px;
+        bottom: 170px;
+        height: 220px;
+    
+}
+
+#About h1{
+    text-align: center;
+    padding: 80px;
+    font-size: 49px;
+    
+    
+}
+
+#About h2{
+  font-size: 20px;
+  width: 900px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  top: 20px;
+ 
+  
+}
+
+
+#About p{
+    width: 900px;
+    height: 200px;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 360px;
+    left: 400px;
+
+    
+}
+
+#About{
+  width: auto;
+  height: 600px;
+}
+
+#skills{
+  width: auto;
+  height: 350px;
+  text
+}
+
+#skills h1{
+    text-align: center;
+    font-size: 30px;
+    padding:30px;
+
+}
+
+
+
+
+.fab fa-htm15{
+  color: black;
+}
+
+.container .row{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    gap: 12px;
+    position: relative;
+    top: 30px;
+    justify-content: center;
+}
+
+
+.row .skill1{
+    height:100px;
+    width: 100px;
+  
+   
+}
+.row .skill2{
+    height:100px;
+    width: 100px;
+    
+    
+}
+.row .skill3{
+    height:100px;
+    width: 100px;
+    
+}
+.row .skill4{
+    height:100px;
+    width: 100px;
+    
+}
+
+.row .skill5{
+  height:100px;
+  width: 100px;
+  
+}
+
+.row .skill6{
+  height:100px;
+  width: 100px;
+  
+}
+
+.row .skill7{
+  height:100px;
+  width: 100px;
+  
+}
+
+.row .skill8{
+  height:100px;
+  width: 100px;
+  
+}
+
+#skills p{
+  text-align: center;
+  width: 800px;
+  position: relative;
+  left: 378px;
+  top: 70px;
+}
+
+
+
+
+#portfolio{
+  width: auto;
+  height: 700px;
+}
+#portfolio h1{
+    text-align: center;
+    padding: 40px;
+
+
+}
+
+.work{
+    display:inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.work .work1{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+.work .work2{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+.work .work3{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+.work .work4{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+.work .work5{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+.work .work6{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#contact h1{
+    text-align:center;
+    font-size:30px;
+    padding: 300px;
+    font-size: 50px;
+    position: relative;
+    top: -220px;
+    color: white;
+
+}
+
+#contact{
+  width: auto;
+  height: 400px;
+  background-color: black;
+
+}
+
+
+
+#contact button{
+  color: black;
+  background-color: white;
+  position: relative;
+  bottom: 440px;
+  left: 700px;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  font-style: bolder;
+  letter-spacing: 2px;
+}
+
+#footer{
+  width: auto;
+  height: 500px;
+  text-align: center;
+  padding: 100px;
+}
+#footer #socialmedia{
+  text-align: center;
+  padding: 100px;
+}
+
+
+#footer h3{
+  text-align: center;
+  font-size: 20px;
+  padding: 100px;
+}
+
+

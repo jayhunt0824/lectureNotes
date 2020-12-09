@@ -1,0 +1,118 @@
+Document Object Model
+
+when web page is loaded, the browser creates this DOM. 
+
+-Like a heirarchy tree structure. HTML braches into head, body and then other sections. 
+
+Dom refers to entire html document. 
+-We can access by typing document in the console. 
+
+
+
+QUERYING THE DOM
+-getElementById
+-getElementsByTagName (plural)
+-getElementsByClass (plural)
+-querySelector
+-querySelectorAll
+
+----when we utilize we have to type document first . method and (");
+    -ex: let header= document.getElementbyId('aboutme');
+
+
+
+
+
+
+-------getElementById()--Element--Single--No loop
+
+--If we want to grab one thing.
+--const header = document.getElementById('header');
+console.log(header); //to double check
+
+----We could start with
+document.getElementById("header").style.color="green" 
+----but we already declared const header = document.getElementById('header');
+---we can write
+header.style.color="green";
+header.innerText="Hello World";
+
+
+
+
+-----getElementsByClassName();--returns HTMLcollection--multiple--can loop but not for each.  
+-const errorList = document.getElementsbyClassName('error-list');
+console.log(error-list); //to check
+
+errorlist[1].innerText="I changed error 2"
+//targeting our second errorlist. 
+
+-FOR LOOP-How do we grab both to change a style??? we need a loop.
+-for (let i=0; i<errorList.length; i++){
+    //we treat like an array
+    errorList[i].style.color="red";
+}
+
+-FOR OF LOOP example 2
+for(error of errorList){
+    error.style.color="green"
+}
+
+//Cannot do a for each for this. 
+
+
+----GetElementsbyTagName();--similiar to class name---html collection--multiple--can loop but not for each. 
+-anything inbetween <>
+-scrubs entire document for tag and gives it to you in a list format. comes back in an array like structure. 
+-const tags=document.getElementsByTagName();
+---tags[0].innerText= "I changed the paragraph using get ELementsByTagName!";
+
+const listItems=document.getElementsbyTagName('li');
+console.log(li);
+listItems
+
+if we want to italicize the bullet points
+listItems[0].style.fontstyle="italic";
+listItems[1].style.fontstyle="italic";
+
+if we had multiple tags we want to use a loop
+for(let i=0; i<listItems.length; i++){
+    listItems[i].style.fontStyle ="italic";
+}
+
+
+--querySelector()--single element--cant loop -querying dom for css selector. Selector will scan youre entire doc and it will stop searching once it matches the first item. It will only return one. 
+
+const header=document.querySelector('#header');
+or you could do h1 because it's the first one.
+
+can also
+rick click and hit select
+copy selector 
+const errorList2=document.querySelector('paste');
+
+--querySelectorAll()--node list--multiple--
+going to get a node list back
+it will give us an array structure back
+can loop through
+
+const listItems=querySelectorAll('.error-list');
+
+
+for each loop
+
+const headerTags= document.querySelectorAll('h1);
+console.log(headerTags[1]);
+
+
+headerTags.forEach((h)=>{
+    h.style.color="blue";
+});
+
+const listItems = document.querySelectorAll(".error-list");
+
+listItems.forEach((li)=>{
+    li.style.fontStyle = "italic";
+});
+
+

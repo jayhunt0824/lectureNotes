@@ -1,0 +1,7 @@
+async function slowResult(){
+  await  fetch('url')
+    .then(res=>res.json())
+    .then(json=>console.log(json))
+    console.log('this is a message!')
+}
+slowResult();

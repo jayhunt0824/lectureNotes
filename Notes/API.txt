@@ -1,0 +1,42 @@
+First we need a URL, where we grab our data. 
+
+const baseURL="";
+
+we need to make sure when the user 
+
+for Space X EXAMPLE, reaching out to Space X. we have a form and a button. 
+
+declare variable for searchForm.
+const searchForm = document.querySelector('form');
+const spaceShips =document.querySelector('ul');//where the spaceships from api will show up
+
+our search form needs an event listener. waiting for someone to click. 
+
+searchForm.addEventListener('submit', fetchSpace); //fetchspace is the callback function that will happen when the submit button is clicked. 
+
+function fetchSpace(e){
+    e.preventDefault(); //preventing submit action from occuring. 
+
+    fetch(baseURL)//built in function, do not have to define. 
+    .then(result=>res.json()) //.json also returns a promise because there could be a lot of data being processed. 
+
+    use another .then because its another promise.
+    .then(json=>console.log(json)) //delete console log later and log line below
+    .then(json =>{ //not concise with => bc we have a couple lines of code. 
+        console.log(json);
+        displayRockets(json) //function that gets passed the json array. gets invoked in this line.
+    })
+}
+
+function displayRockets(rockets){
+    rockets.forEach(r=>{    (//r stands for a single rocket object)
+        let rocket=document.createElement('li');
+        rocket.innerText=r.name;
+        spaceShips(unorderedList).appendChild(rocket) //rocket is our child element. 
+
+    }) //forEach bc rockets is an array
+}
+
+
+
+

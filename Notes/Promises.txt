@@ -1,0 +1,33 @@
+A promise is a way we can handle asynchronous code. Doesn't work top to bottom. 
+
+
+setTimeout function takes a handler(another function) for a timeout number of miliseconds. 
+setTimeout(() => console.log )'This is a test of timeouts!'), 1000); //waits a second. 
+
+A promise
+how we handle our code as we are waiting for the request from api to come back.
+
+let promise = new Promise (needs an executer function that will then resolve or reject) 
+let promise = newPromise(function(resolve,reject){
+    setTimeout(()=>{
+        if(true){
+            resolve.('success');
+        }else{
+            reject('failure')
+        }
+    }, 3000);
+    })
+
+ //to handle the success of the promise
+.........we can call ex.success whatever we want. 
+
+promise...we can call success whatever we want. we could call it blah. blah will have value of success. 
+ .then(success => console.log(success))
+ //.then(blah => console.log(blah));
+ //if we changed if(true) to if(false) it will console an error. we can prevent this by doing
+ .catch takes a callback function as well. 
+ .catch(err=> console.log (err))//handles the failure case 
+
+
+//callback function will happen after something transpires. true is always true so it will always resolve success, else it will reject, failure.  
+

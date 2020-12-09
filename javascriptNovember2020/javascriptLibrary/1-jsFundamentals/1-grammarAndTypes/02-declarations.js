@@ -19,7 +19,7 @@ console.log(a+b);
 Declarations, initializations, assignment
 */
 
-/* Devlarations refer to when we 'declare' a variable
+/* Declarations refer to when we 'declare' a variable
 
 Initializations refer to when a variable is assigned a value
 

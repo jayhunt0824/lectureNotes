@@ -1,6 +1,6 @@
 var age = 40;
 var ageInAugust = age + 1;  
-console.log(ageInAugust);//What will you get here?
+console.log(ageInAugust); //What will you get here?
 
 var eleven = 11;
 console.log(eleven * eleven); //What will the answer be?
